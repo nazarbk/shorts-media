@@ -11,5 +11,16 @@
     "hora": "subido a mano el 2026-11-01",
     "metricool": {},
     "nota": "Programación del 2026-11-02 14:00 pasada a borrador (duplicado)"
+  },
+  {
+    "id": "voz-x2-es",
+    "fecha": "2026-11-02",
+    "hora": "14:00",
+    "metricool": {
+      "youtube": 413859598,
+      "tiktok": 413859710
+    },
+    "miniatura": "portada_1 (aceptada por Metricool)",
+    "programado_por": "Claude a mano (la tarea de las 12:12 no se ejecutó)"
   }
 ]
