@@ -2,6 +2,13 @@
 
 Las anota la tarea "Publicación Shorts". El fallo más reciente va arriba. Nunca se apuntan claves ni tokens.
 
+## 2026-11-07 12:15 · Publicación Shorts: pizza ya publicada a mano (no se programa)
+- Origen: comprobación anti-duplicados (getScheduledPosts / getAnalyticsDataByMetrics).
+- «¿Y si tu pizza doblara su tamaño cada minuto? 🍕🌍» (pizza-x2-es) ya salió en YouTube el 2026-11-05 a las 17:00 con un post creado a mano en Metricool (id 417641063, https://www.youtube.com/shorts/wpfHZ_ejbHo, estado PUBLISHED).
+- No se ha programado nada para evitar el duplicado. Se ha movido a programados.json con "hora": "ya publicado a mano".
+- Ojo: en TikTok NO aparece publicado en los últimos 7 días (TKPO02/TKPO05). Si quieres que salga en TikTok, súbelo a mano (pizza-x2_tiktok.mp4) o pídelo.
+- pendientes.json queda vacío: no hay vídeos en reserva.
+
 ## 2026-11-02 12:46 · Publicación Shorts (12:12) no programó nada
 - La ejecución de las 12:12 no dejó rastro: no hubo commit ni posts en Metricool. Coincide con el LÍMITE DE USO de 5 horas del plan de Claude, agotado hacia las 12:00 y repuesto a las 12:30 (los agentes de animación también se cortaron por eso).
 - Arreglo: la voz v2 se ha programado a mano para el 2026-11-02 a las 14:00. YouTube 413859598 con autoPublish y miniatura portada_1, que Metricool aceptó. TikTok 413859710 con notificación.
